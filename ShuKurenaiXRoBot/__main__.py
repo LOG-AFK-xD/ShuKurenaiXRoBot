@@ -95,23 +95,23 @@ Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](http
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/ShuKurenaiXRoBot?startgroup=new"),
+            text=" Ꭺᴅᴅ ᎷᎬ Ͳᴏ Ꮍᴏᴜʀ Ꮐʀᴏᴜᴘ ", url="t.me/ShuKurenaiXRoBot?startgroup=new"),
     ],
     [
         InlineKeyboardButton(
-              text="Help",
+              text=" Hᴇʟᴘ ",
               callback_data="help_back"),
         InlineKeyboardButton(
-              text="About",
+              text="Ꭺʙᴏᴜᴛ",
               callback_data="shukurenai_"),   
     ],
     [                  
                        InlineKeyboardButton(
-                             text="Support🚑",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="Sᴜᴘᴘᴏʀᴛ",
+                             url=f"https://t.me/TheMafiaSupport"),
                        InlineKeyboardButton(
-                             text="Updates🛰️",
-                             url=f"https://t.me/shukurenai007"),
+                             text="ՄᴘᴅᴀᴛᴇՏ",
+                             url=f"https://t.me/TheMafiaNetwork"),
     ],
 
 ]
