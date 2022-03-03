@@ -98,9 +98,9 @@ buttons = [
             text="Ꭺᴅᴅ Ꮇᴇ Ꮍᴏ Ⴎʀ Ꮐʀᴏᴜᴘ", url="http://t.me/YurikoRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaNetwork"),
+        InlineKeyboardButton(text="Ꭺʙᴏᴜᴛ ᴍᴇ", callback_data="shukurenai_"),
         InlineKeyboardButton(
-            text="Ꭺʙᴏᴜᴛ ᵐᴇ", callback_data="shukurenai_"          
+            text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaNetwork"          
         ),
     ],
     [
