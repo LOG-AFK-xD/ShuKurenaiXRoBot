@@ -95,16 +95,16 @@ Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](http
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me To Your Group", url="http://t.me/YurikoRobot?startgroup=true"),
+            text="Ꭺᴅᴅ Ꮇᴇ Ꮍᴏ Ⴎʀ Ꮐʀᴏᴜᴘ", url="http://t.me/YurikoRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Support", url=f"t.me/TheMafiaNetwork"),
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaNetwork"),
         InlineKeyboardButton(
-            text="About Me", callback_data="shukurenai_"          
+            text="Ꭺʙᴏᴜᴛ ᵐᴇ", callback_data="shukurenai_"          
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands", callback_data="help_back"),
+        InlineKeyboardButton(text="Ꮋᴇʟᴘ & ᏟᴏᴍᴍᴀɴᴅՏ", callback_data="help_back"),
     ],
 ]
 
