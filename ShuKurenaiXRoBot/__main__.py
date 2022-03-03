@@ -82,6 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
+
 Hey There My Name Is Alexarobot I Am Here To Help You Manage Your Groups!
 Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](https://telegra.ph/file/5d4af6084cbf1b119c31b.jpg) 
 ───────────────────────
