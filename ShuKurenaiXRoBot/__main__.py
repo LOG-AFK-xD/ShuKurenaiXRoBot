@@ -93,22 +93,16 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+            text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ", url="http://t.me/YurikoRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaNetwork"),
         InlineKeyboardButton(
-            text="Iɴʟɪɴᴇ", switch_inline_query_current_chat=""
+            text="Aʙᴏᴜᴛ ᴍᴇ", callback_data="shukurenai_"          
         ),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="shukurenai_"),
-        InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/YurikoRobot?startgroup=true"),
+        InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
 ]
 
