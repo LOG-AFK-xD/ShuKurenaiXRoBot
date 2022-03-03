@@ -82,12 +82,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Beyblade theme management bot [🔥](http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg) 
+Hey There My Name Is YumiXBot I Am Here To Help You Manage Your Groups!
+Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](http://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg) 
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Hit /help to see my available commands.
+📶 Powered By- [TheMafiaNetwork](t.me/the_blaze_Network) .
 """
 
 buttons = [
