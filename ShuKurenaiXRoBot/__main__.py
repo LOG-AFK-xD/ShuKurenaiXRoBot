@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/TheMafiaSupport}"),
+                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/TheMafiaSupport"),
                   InlineKeyboardButton(text="✧ Updates ", url=f"https://t.me/TheMafiaNetwork"),
                   ]
                 ]
