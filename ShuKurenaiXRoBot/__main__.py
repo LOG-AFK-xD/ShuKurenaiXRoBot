@@ -84,7 +84,7 @@ PM_START_TEXT = """
 *Hello {} !*
 
 Hey There My Name Is Alexarobot I Am Here To Help You Manage Your Groups!
-Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](https://telegra.ph/file/5d4af6084cbf1b119c31b.jpg) 
+Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](https://telegra.ph/file/84c79a722039c05dbbe3f.jpg) 
 ───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -95,16 +95,16 @@ Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](http
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ", url="http://t.me/YurikoRobot?startgroup=true"),
+            text="Add Me To Your Group", url="http://t.me/YurikoRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaNetwork"),
+        InlineKeyboardButton(text="Support", url=f"t.me/TheMafiaNetwork"),
         InlineKeyboardButton(
-            text="Aʙᴏᴜᴛ ᴍᴇ", callback_data="shukurenai_"          
+            text="About Me", callback_data="shukurenai_"          
         ),
     ],
     [
-        InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="Help & Commands", callback_data="help_back"),
     ],
 ]
 
@@ -115,9 +115,9 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command[.](http://telegra.ph/file/e384ab52db8c0912ca356.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@shukurenai007bot**"""
-HELP_IMG = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
-GROUP_IMG = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
+DONATE_STRING = """Contact to **@LOG_OUT_XD**"""
+HELP_IMG = "https://telegra.ph/file/84c79a722039c05dbbe3f.jpg"
+GROUP_IMG = "https://telegra.ph/file/84c79a722039c05dbbe3f.jpg"
 
 
 
@@ -241,8 +241,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/shukurenai007"),
+                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/TheMafiaSupport}"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"https://t.me/TheMafiaNetwork"),
                   ]
                 ]
             ),
@@ -397,7 +397,7 @@ def shukurenai_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="shukurenai_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/shukurenai007/ShuKurenaiXRoBot"),
+                    InlineKeyboardButton(text="Source Code", url="EVIL_BOY_OP"),
                     InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""), 
                  ],
                  [
@@ -424,7 +424,7 @@ def shukurenai_about_callback(update, context):
     elif query.data == "shukurenai_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulation, Shu Kurenai now ready to manage your group."
+            "\nCongragulation, Alexarobot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -457,8 +457,8 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/ShuKurenaiSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/shukurenai007"),
+                    InlineKeyboardButton(text="Support", url="t.me/https://t.me/TheMafiaSupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/TheMafiaNetwork"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -471,15 +471,15 @@ def shukurenai_about_callback(update, context):
 
     elif query.data == "shukurenai_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Shu Kurenai\n"
-            "\nHere Developers Making And Give Inspiration For Made The ShuKurenaiXRoBot",
+            text=f"๏ Credis for Alexa\n"
+            "\nHere Developers Making And Give Inspiration For Made The alexaRoBot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="DeepakJack", url="https://github.com/DeepakJack007"),
-                    InlineKeyboardButton(text="Kishore", url="https://github.com/AASFCYBERKING"),
-                    InlineKeyboardButton(text="Nandha", url="https://github.com/Ctzfamily"), 
+                    InlineKeyboardButton(text="Official", url="https://github.com/Official-afk-xD"),
+                    InlineKeyboardButton(text="linex", url="https://github.com/TeamLinex"),
+                    InlineKeyboardButton(text="Alex", url="t.me/alex_piro_xD"), 
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
