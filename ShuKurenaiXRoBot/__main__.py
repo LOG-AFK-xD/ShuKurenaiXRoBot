@@ -95,17 +95,25 @@ Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](http
 buttons = [
     [
         InlineKeyboardButton(
-            text="Ꭺᴅᴅ Ꮇᴇ Ꮍᴏ Ⴎʀ Ꮐʀᴏᴜᴘ", url="http://t.me/YurikoRobot?startgroup=true"),
+            text="➗ Add Shu Kurenai To Your Group ➗", url="t.me/ShuKurenaiXRoBot?startgroup=new"),
     ],
     [
-        InlineKeyboardButton(text="Ꭺʙᴏᴜᴛ ᴍᴇ", callback_data="shukurenai_"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaNetwork"          
-        ),
+              text="Help",
+              callback_data="help_back"),
+        InlineKeyboardButton(
+              text="About",
+              callback_data="shukurenai_"),   
     ],
-    [
-        InlineKeyboardButton(text="Ꮋᴇʟᴘ & ᏟᴏᴍᴍᴀɴᴅՏ", callback_data="help_back"),
+    [                  
+                       InlineKeyboardButton(
+                             text="Support🚑",
+                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(
+                             text="Updates🛰️",
+                             url=f"https://t.me/shukurenai007"),
     ],
+
 ]
 
 
