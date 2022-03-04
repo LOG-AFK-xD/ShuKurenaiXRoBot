@@ -109,12 +109,12 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command[.](http://telegra.ph/file/e384ab52db8c0912ca356.jpg)"""
+Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/37a462f59c0aaefd9289e.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **Alex_piro_xD**"""
 HELP_IMG = "https://telegra.ph/file/37a462f59c0aaefd9289e.jpg"
-GROUP_IMG = "https://telegra.ph/file/37a462f59c0aaefd9289e.jpg"
+GROUP_IMG = "https://telegra.ph/file/3854ea99b7cc6bb7a2550.jpg"
 
 
 
