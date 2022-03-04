@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 Hey There My Name Is kiararobot I Am Here To Help You Manage Your Groups!
-Hit /Help To Find Out More About How To Use Me To My Full Potential! [](https://telegra.ph/file/84c79a722039c05dbbe3f.jpg) 
+Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔲](https://telegra.ph/file/84c79a722039c05dbbe3f.jpg) 
 ───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -114,7 +114,7 @@ Click on the button bellow to get description about specifics command[.](http://
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **Alex_piro_xD**"""
 HELP_IMG = "https://telegra.ph/file/37a462f59c0aaefd9289e.jpg"
-GROUP_IMG = "https://telegra.ph/file/3854ea99b7cc6bb7a2550.jpg"
+GROUP_IMG = "https://telegra.ph/file/37a462f59c0aaefd9289e.jpg"
 
 
 
@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
-             GROUP_IMG, caption= "*Hey {},*\n*Shu Kurenai here*\n*Power lavel time* : {} ".format(
+             GROUP_IMG, caption= "*Hey {},*\n*Kiara robot here*\n*Power lavel time* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
