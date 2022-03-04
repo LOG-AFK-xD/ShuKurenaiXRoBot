@@ -379,7 +379,7 @@ def shukurenai_about_callback(update, context):
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_TheMafiaNetwork�┗━━━━━━━━━━━ licensed under the GNU General Public License v3.0_"
+            "\n\n_TheMafiaNetwork�━━━━ licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for KiaraRobot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -449,7 +449,7 @@ def shukurenai_about_callback(update, context):
     elif query.data == "shukurenai_support":
         query.message.edit_text(
             text="*๏ Kiara support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Shu Kurenai.",
+            "\nJoin My Support Group/Channel for see or report a problem on kiara.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -469,7 +469,7 @@ def shukurenai_about_callback(update, context):
     elif query.data == "shukurenai_credit":
         query.message.edit_text(
             text=f"๏ Credis for KiaraRobot\n"
-            "\nHere Developers Making And Give Inspiration For Made The ShuKurenaiXRoBot",
+            "\nHere Developers Making And Give Inspiration For Made The kiaraRoBot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
