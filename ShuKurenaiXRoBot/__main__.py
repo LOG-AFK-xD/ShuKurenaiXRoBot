@@ -113,8 +113,8 @@ Click on the button bellow to get description about specifics command[.](http://
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **Alex_piro_xD**"""
-HELP_IMG = "https://telegra.ph/file/84c79a722039c05dbbe3f.jpg"
-GROUP_IMG = "http://telegra.ph/file/0adf9e97735ba8a420973.jpg"
+HELP_IMG = "https://telegra.ph/file/37a462f59c0aaefd9289e.jpg"
+GROUP_IMG = "https://telegra.ph/file/3854ea99b7cc6bb7a2550.jpg"
 
 
 
