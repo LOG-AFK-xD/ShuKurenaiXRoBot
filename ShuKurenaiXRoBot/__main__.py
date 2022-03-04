@@ -82,8 +82,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-Hey There My Name Is Alexarobot I Am Here To Help You Manage Your Groups!
-Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](https://telegra.ph/file/84c79a722039c05dbbe3f.jpg) 
+Hey There My Name Is kiararobot I Am Here To Help You Manage Your Groups!
+Hit /Help To Find Out More About How To Use Me To My Full Potential! [](https://telegra.ph/file/84c79a722039c05dbbe3f.jpg) 
 ───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -94,12 +94,12 @@ Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔥](http
 buttons = [
     [
         InlineKeyboardButton(
-            text="Ꭺᴅᴅ Ꮇᴇ Ͳᴏ Ꮍᴏᴜʀ Ꮐʀᴏᴜᴘ", url="http://t.me/YurikoRobot?startgroup=true"),
+            text="Ꭺᴅᴅ Ꮇᴇ Ͳᴏ Ꮍᴏᴜʀ Ꮐʀᴏᴜᴘ", url="http://t.me/KiaraRo_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Ꭺʙᴏᴜᴛ ᴍᴇ", callback_data="shukurenai_"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaNetwork"          
+            text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaSupport"          
         ),
     ],
     [
@@ -238,8 +238,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/shukurenai007"),
+                  InlineKeyboardButton(text="✧ Support ", url=f"t.me/TheMafiaSupport"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/TheMafiaNetwork"),
                   ]
                 ]
             ),
@@ -372,15 +372,15 @@ def shukurenai_about_callback(update, context):
     query = update.callback_query
     if query.data == "shukurenai_":
         query.message.edit_text(
-            text="๏ I'm *Shu Kurenai*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm * kiara robot*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Shu Kurenai's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for ShuKurenaiXRoBot.",
+            "\n\n_TheMafiaNetwork�┗━━━━━━━━━━━ licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for KiaraRobot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -394,7 +394,7 @@ def shukurenai_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="shukurenai_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/shukurenai007/ShuKurenaiXRoBot"),
+                    InlineKeyboardButton(text="Source Code", url="t.me/ankit_piro_xD"),
                     InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""), 
                  ],
                  [
