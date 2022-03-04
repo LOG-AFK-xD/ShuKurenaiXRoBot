@@ -94,7 +94,7 @@ Hit /Help To Find Out More About How To Use Me To My Full Potential! [🔲](http
 buttons = [
     [
         InlineKeyboardButton(
-            text="Ꭺᴅᴅ Ꮇᴇ Ͳᴏ Ꮍᴏᴜʀ Ꮐʀᴏᴜᴘ", url="http://t.me/KiaraRo_bot?startgroup=true"),
+            text="Ꭺᴅᴅ Ꮇᴇ Ͳᴏ Ꮍᴏᴜʀ Ꮐʀᴏᴜᴘ", url="http://t.me/Kiara_ro_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Ꭺʙᴏᴜᴛ ᴍᴇ", callback_data="shukurenai_"),
