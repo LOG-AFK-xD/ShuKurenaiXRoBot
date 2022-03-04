@@ -421,7 +421,7 @@ def shukurenai_about_callback(update, context):
     elif query.data == "shukurenai_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulation, Shu Kurenai now ready to manage your group."
+            "\nCongragulation, Kiararobot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -448,14 +448,14 @@ def shukurenai_about_callback(update, context):
         )
     elif query.data == "shukurenai_support":
         query.message.edit_text(
-            text="*๏ Shu Kurenai support chats*"
+            text="*๏ Kiara support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on Shu Kurenai.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/ShuKurenaiSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/shukurenai007"),
+                    InlineKeyboardButton(text="Support", url="t.me/TheMafiaSupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/TheMafiaNetwork"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -468,15 +468,15 @@ def shukurenai_about_callback(update, context):
 
     elif query.data == "shukurenai_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Shu Kurenai\n"
+            text=f"๏ Credis for KiaraRobot\n"
             "\nHere Developers Making And Give Inspiration For Made The ShuKurenaiXRoBot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="DeepakJack", url="https://github.com/DeepakJack007"),
-                    InlineKeyboardButton(text="Kishore", url="https://github.com/AASFCYBERKING"),
-                    InlineKeyboardButton(text="Nandha", url="https://github.com/Ctzfamily"), 
+                    InlineKeyboardButton(text="Saurabh", url="https://github.com/Log-out-xD"),
+                    InlineKeyboardButton(text="Linex", url="https://github.com/TeamLinex"),
+                    InlineKeyboardButton(text="Log AFk", url="https://github.com/Official-afk-xD"), 
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -747,7 +747,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784:
+        if OWNER_ID != 2091736526:
             update.effective_message.reply_text(
                 "I'm free for everyone 😎 If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -794,16 +794,16 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞](http://telegra.ph/file/ff558497b647d265ef029.jpg)", parse_mode=ParseMode.MARKDOWN,
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[Hey Baby, I Am Alive 🙂](https://telegra.ph/file/37a462f59c0aaefd9289e.jpg)", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Support🚑",
-                             url=f"https://t.me/ShuKurenaiSupport"),
+                             text="🚑 Support",
+                             url=f"https://t.me/TheMafiaSupport"),
                        InlineKeyboardButton(
-                             text="Updates🛰️",
-                             url="https://t.me/shukurenai007")
+                             text="Updates 📢",
+                             url="https://t.me/TheMafiaNetwork")
                      ] 
                 ]
             ),
