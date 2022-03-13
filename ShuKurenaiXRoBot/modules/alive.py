@@ -54,13 +54,13 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    Shu = f"♡ **Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}), I'm ShuKurenai**\n\n"
+    Shu = f"♡ **Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}), I'm kiara Robot**\n\n"
     Shu += f"♡ **My Uptime** ~♪ `{uptime}`\n\n"
     Shu += f"♡ **Telethon Version** ~♪ `{version.__version__}`\n\n"
     Shu += f"♡ **Python Telegram Bot Version** ~♪ `{telegram.__version__}`\n\n"
     Shu += f"♡ **Pyrogram Version** ~♪ `{pyro}`\n\n"
-    Shu += f"♡ **My Master** ~♪ [DeepakJack](tg://user?id={OWNER_ID})"
-    BUTTON = [[Button.url("Support Chat", f"https://t.me/{SUPPORT_CHAT}"), Button.url("Updates Channel", "https://t.me/shukurenai007")]]
+    Shu += f"♡ **My Master** ~♪ [─██████─</Official ➣LOG⛦ AFK xͮD 🇮🇳 ─██████─](tg://user?id={OWNER_ID})"
+    BUTTON = [[Button.url("🚑 Support", f"https://t.me/KiaraSupport"), Button.url("Updates 📢", "https://t.me/KiaraUpdates")]]
     on = await borg.send_file(yes.chat_id, file=file2,caption=Shu, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
