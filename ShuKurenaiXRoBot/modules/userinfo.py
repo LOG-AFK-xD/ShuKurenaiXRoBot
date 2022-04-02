@@ -450,7 +450,7 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current Kiara Robot Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By- [The Mafia Network](t.me/TheMafiaNetwork). 」</b>"
+    result += "\n<b>╘═━ Powered By- [The Mafia Network](t.me/TheMafiaNetwork). </b>"
     update.effective_message.reply_photo(
         SHU,caption=result, 
         reply_markup=InlineKeyboardMarkup(
