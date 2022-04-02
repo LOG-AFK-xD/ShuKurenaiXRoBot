@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "Health", url="https://t.me/KiaraSupport/33"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "Disaster", url="https://t.me/kiaraUpdates/35")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "Health", url="https://t.me/KiaraSupport/33"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "Disaster", url="https://t.me/KiaraUpdates/35")
                         ],
                     ]
                 ),
@@ -450,16 +450,16 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current ShuKurenai Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By ShuKurenaiSupport」</b>"
+    result += "\n<b>╘═━「 Powered By- [The Mafia Network](t.me/TheMafiaNetwork) 」</b>"
     update.effective_message.reply_photo(
         SHU,caption=result, 
         reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                "Support", url=f"https://t.me/{SUPPORT_CHAT}"),
+                                "🚑 Support", url=f"https://t.me/KiaraSupport"),
                             InlineKeyboardButton(
-                                "Updates", url=f"https://t.me/shukurenai007")
+                                "Updates 📢", url=f"https://t.me/KiaraUpdates")
                         ],
                     ]
                 ),
@@ -580,7 +580,7 @@ When marked as AFK, any mentions will be replied to with a message stating that 
   - brb <reason>: Same as the afk command, but not a command. 
   
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/KennedyProject/44)
+ Come and see [HP System explained](https://t.me/The_Blaze_Network/44)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio, run_async=True)
