@@ -81,7 +81,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups.
+*Hello There {} !* 
+Hey There My Name Is kiararobot I Am Here To Help You Manage Your Groups!
+Hit /Help To Find Out More About How To Use Me To My Full Potential!
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ───────────────────────
