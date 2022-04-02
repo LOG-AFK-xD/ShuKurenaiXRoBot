@@ -43,7 +43,7 @@ from ShuKurenaiXRoBot.modules.helper_funcs.extraction import extract_user
 from ShuKurenaiXRoBot import telethn
 from ShuKurenaiXRoBot import SUPPORT_CHAT
 
-SHU = "https://telegra.ph//file/1247053aadf93e8e371a2.jpg"
+SHU = "https://telegra.ph/file/b5416e1842adf722ca34e.jpg"
 
 def no_by_per(totalhp, percentage):
     """
@@ -448,9 +448,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current ShuKurenai Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current Kiara Robot Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By- [The Mafia Network](t.me/TheMafiaNetwork) 」</b>"
+    result += "\n<b>╘═━「 Powered By- [The Mafia Network](t.me/TheMafiaNetwork). 」</b>"
     update.effective_message.reply_photo(
         SHU,caption=result, 
         reply_markup=InlineKeyboardMarkup(
