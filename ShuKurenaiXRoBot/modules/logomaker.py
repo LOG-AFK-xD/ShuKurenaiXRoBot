@@ -113,7 +113,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [ShuKurenaiXRoBot](https://t.me/ShuKurenaiXRoBot)",
+            caption="Powered By- [Kiara Robot](https://t.me/KIARA_Ro-Bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [ShuKurenaiXRoBot](https://t.me/ShuKurenaiXRoBot)",
+            caption="Logo by- [Kiara Robot](https://t.me/kiara_Ro_Bot)",
             force_document=False,
         )
         os.remove(flnme)
