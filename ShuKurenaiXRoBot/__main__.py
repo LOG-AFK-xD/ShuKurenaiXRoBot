@@ -81,10 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !* [🔲](https://telegra.ph/file/b5416e1842adf722ca34e.jpg)
-Hey There My Name Is kiararobot I Am Here To Help You Manage Your Groups!
-Hit /Help To Find Out More About How To Use Me To My Full Potential! 
-───────────────────────
+Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups.
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ───────────────────────
@@ -94,6 +91,7 @@ Hit /Help To Find Out More About How To Use Me To My Full Potential!
 buttons = [
     [
         InlineKeyboardButton(
+                        InlineKeyboardButton(
                         "🔎 How to Use? Commands Menu.",
                         callback_data="cbcmds",
                     )
@@ -111,7 +109,12 @@ buttons = [
                         "👤 Bot Owner", url=f"https://t.me/OFFICIAL_AFK_xD"
                     ),
                     InlineKeyboardButton(
-                        "❓ About Me", url=f"https://t.me/iTzz_Official"),
+                        "💡 About Me", url=f"https://t.me/iTzz_Official"                  
+                    ),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "✳️ Chichat ", url=f"https://t.me/UNIQUE_SOCIETY"),
     ],
 ]
 
