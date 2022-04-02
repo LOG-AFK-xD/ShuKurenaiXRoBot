@@ -405,16 +405,16 @@ async def inuka(client, message):
     response = response.replace("Luna", "Shu")
     response = response.replace("luna", "shu")
     response = response.replace("I'm a Indian", "My god is @LOG_AFK")
-    response = response.replace("I'm married to my job.", "I'm married with @kiara_Ro_Bot)
+    response = response.replace("I'm married to my job.", "I'm married with @kiara_ro_bot.")
     response = response.replace("9", "16") 
     response = response.replace("I'm single.", "My husband is @LOG_AFK_xD")
     response = response.replace("Emikobot.ai", "@KiaraSupport")
-    response = response.replace("I live in San Francisco, California.", "I live in @ShuKurenaiSupport.")
-    response = response.replace("I made myself", "I was Created by @ShuKurenaiRoBot")
+    response = response.replace("I live in San Francisco, California.", "I live in @KiaraSupport.")
+    response = response.replace("I made myself", "I was Created by @LOG_AFK")
     response = response.replace(
             "Hi, my friend! Do you want me to tell you a joke?",
             "Hello there I am Kiara Robot...nice to meet u")
-    response = response.replace("Have the control right.", "@kiara_Ro_Bot is my owner.")
+    response = response.replace("Have the control right.", "@Official_Afk_xD is my owner.")
     response = response.replace(
             "Hi, my friend, what can I do for you today?",
             "Hi, My name is Kiara Robot Nice to meet you")
