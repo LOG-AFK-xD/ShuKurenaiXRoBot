@@ -96,23 +96,23 @@ buttons = [
         
                     InlineKeyboardButton(
                         "🔎 How to Use? Commands Menu.",
-                        callback_data="cbcmds",
+                        callback_data="help_back",
                     )
                 ], 
                 [            
-                    InlineKeyboardButton("📨 Support", url=f"https://t.me/TheMafiaSupport"),
-                    InlineKeyboardButton("📨 Channel", url=f"https://t.me/TheMafiaNetwork"),               
+                    InlineKeyboardButton("📨 Support", url=f"https://t.me/UNIQUE_SOCIETY"),
+                    InlineKeyboardButton("📨 Channel", url=f"https://t.me/iTzz_Official"),               
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Add me to your Group", url=f"https://t.me/Happy_ro_bot?startgroup=true"),
+                        "✚ Add me to your Group ✚", url=f"https://t.me/Kiara_ro_bot?startgroup=true"),
                 ],
                 [
                     InlineKeyboardButton(
                         "👤 Bot Owner", url=f"https://t.me/OFFICIAL_AFK_xD"
                     ),
                     InlineKeyboardButton(
-                        "💡 About Me", url=f"https://t.me/iTzz_Official"                  
+                        "👮🏼 About Me", url=f"callback_data="shukurenai_"                 
                     ),
                 
     ],
