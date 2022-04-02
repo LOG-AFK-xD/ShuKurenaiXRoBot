@@ -112,8 +112,8 @@ buttons = [
                         "👤 Bot Owner", url=f"https://t.me/OFFICIAL_AFK_xD"
                     ),
                     InlineKeyboardButton(
-                        "👮🏼 About Me", url=f"callback_data="shukurenai_"                 
-                    ),
+                        "👮🏼 About Me", callback_data="shukurenai_"),                 
+                    
                 
     ],
 ]
