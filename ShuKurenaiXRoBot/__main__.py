@@ -94,16 +94,16 @@ Hit /Help To Find Out More About How To Use Me To My Full Potential!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Ꭺᴅᴅ Ꮇᴇ Ͳᴏ Ꮍᴏᴜʀ Ꮐʀᴏᴜᴘ", url="http://t.me/Kiara_ro_Bot?startgroup=true"),
+            text="➕ Add Me To Hour Your Group", url="http://t.me/Kiara_ro_Bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Ꭺʙᴏᴜᴛ ᴍᴇ", callback_data="shukurenai_"),
+        InlineKeyboardButton(text="👤 About Me", callback_data="shukurenai_"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url=f"t.me/TheMafiaSupport"          
+            text="Support 📨", url=f"t.me/TheMafiaSupport"          
         ),
     ],
     [
-        InlineKeyboardButton(text="Ꮋᴇʟᴘ & ᏟᴏᴍᴍᴀɴᴅՏ", callback_data="help_back"),
+        InlineKeyboardButton(text="🔎How to Use? Commands Menu.", callback_data="help_back"),
     ],
 ]
 
