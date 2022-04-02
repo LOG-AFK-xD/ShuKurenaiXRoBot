@@ -114,10 +114,7 @@ buttons = [
                     InlineKeyboardButton(
                         "💡 About Me", url=f"https://t.me/iTzz_Official"                  
                     ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "✳️ Chichat ", url=f"https://t.me/UNIQUE_SOCIETY"),
+                
     ],
 ]
 
