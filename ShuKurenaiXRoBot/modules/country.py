@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By ShuKurenaiXRoBot ✨.</b>
+📶 Powered By- [</Official ➣LOG⛦ AFK xͮD 🇮🇳](t.me/Official_Afk_xD) ✨.</b>
 """
 
     await borg.send_message(
