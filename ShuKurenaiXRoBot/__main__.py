@@ -90,8 +90,8 @@ Hello, My name is {0}.\n\nI'm a telegram streaming bot with some useful features
 
 buttons = [
     [
-        InlineKeyboardButton(
-                        InlineKeyboardButton(
+        
+                    InlineKeyboardButton(
                         "🔎 How to Use? Commands Menu.",
                         callback_data="cbcmds",
                     )
