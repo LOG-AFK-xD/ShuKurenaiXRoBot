@@ -159,7 +159,7 @@ async def up(event):
                 event.chat.id,
                 dosya,
                 force_document=True,
-                caption=f"Uploaded By *ShuKurenaiXRoBot*",
+                caption=f"Uploaded By *Kiara_ro_bot*",
             )
         except Exception as e:
             traceback.print_exc()
