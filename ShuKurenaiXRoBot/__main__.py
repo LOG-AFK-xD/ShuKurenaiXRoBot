@@ -81,9 +81,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !* [.](https://telegra.ph//file/245fef194fcbc027213fe.jpg)
+*Hello {} !* [.](https://telegra.ph//file/abf8446da8d2f4b74a4d1.jpg)
 Hey There My Name Is Kiara Robot I Am Here To Help You Manage Your Groups!
-Hit /Help To Find Out More About How To Use Me To My Full Potential! 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
