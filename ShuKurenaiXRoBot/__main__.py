@@ -113,7 +113,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/37a462f59c0aaefd9289e.jpg)"""
+Click on the button bellow to get description about specifics command[.](https://telegra.ph//file/99f92eb520ed9e5fcf376.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **@Official_Afk_xD**"""
