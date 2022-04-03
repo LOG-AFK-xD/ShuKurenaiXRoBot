@@ -81,8 +81,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !* [🔲](https://telegra.ph//file/74759b21e8d7921fae443.jpg)
-Hey There My Name Is kiararobot I Am Here To Help You Manage Your Groups!
+*Hello {} !* [.](https://telegra.ph//file/74759b21e8d7921fae443.jpg)
+Hey There My Name Is Kiara Robot I Am Here To Help You Manage Your Groups!
 Hit /Help To Find Out More About How To Use Me To My Full Potential! 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 × *Uptime:* `{}`
@@ -123,7 +123,7 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/37a462f59c0aaefd9289e.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **Alex_piro_xD**"""
+DONATE_STRING = """Contact to **@Official_Afk_xD**"""
 HELP_IMG = "https://telegra.ph/file/37a462f59c0aaefd9289e.jpg"
 GROUP_IMG = "https://telegra.ph/file/3854ea99b7cc6bb7a2550.jpg"
 
@@ -405,7 +405,7 @@ def shukurenai_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="shukurenai_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="t.me/ankit_piro_xD"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/Official-Afk-xD/Lovely-Robot"),
                     InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""), 
                  ],
                  [
