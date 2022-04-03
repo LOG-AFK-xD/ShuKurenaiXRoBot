@@ -98,7 +98,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/UNIQUE_SOCIETY"),
+                       InlineKeyboardButton(text="❔ChitChat", url="https://t.me/UNIQUE_SOCIETY"),
                        InlineKeyboardButton(text="[► About ◄]", callback_data="shukurenai_"),
                      ],
                     [                  
