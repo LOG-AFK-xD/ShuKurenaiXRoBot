@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !* [.](https://telegra.ph//file/abf8446da8d2f4b74a4d1.jpg)
+*Hello {} !* [.](https://telegra.ph//file/99f92eb520ed9e5fcf376.jpg)
 Hey There My Name Is Kiara Robot I Am Here To Help You Manage Your Groups!
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 × *Uptime:* `{}`
@@ -98,7 +98,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="[►Help◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ChitChat", url="https://t.me/UNIQUE_SOCIETY"),
+                       InlineKeyboardButton(text="ChitChat", url="https://t.me/UNIQUE_SOCIETY"),
                        InlineKeyboardButton(text="[►About◄]", callback_data="shukurenai_"),
                      ],
                     [                  
@@ -399,7 +399,7 @@ def shukurenai_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Source Code", url="https://github.com/Official-Afk-xD/Lovely-Robot"),
-                    InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""), 
+                    InlineKeyboardButton(text="Developer​​", url="t.me/Official_Afk_xD"), 
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_back"),
@@ -478,7 +478,7 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Saurabh", url="https://github.com/Log-out-xD"),
+                    InlineKeyboardButton(text="Saurabh", url="t.me/Official_Afk_xD"),
                     InlineKeyboardButton(text="Linex", url="https://github.com/TeamLinex"),
                     InlineKeyboardButton(text="Log AFk", url="https://github.com/Official-afk-xD"), 
                  ],
@@ -798,7 +798,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[Hey Baby, I Am Alive 🙂](https://telegra.ph/file/37a462f59c0aaefd9289e.jpg)", parse_mode=ParseMode.MARKDOWN,
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[Hey Baby, I Am Alive 🙂](https://telegra.ph//file/99f92eb520ed9e5fcf376.jpg)", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
