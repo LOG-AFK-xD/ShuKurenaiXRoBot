@@ -93,7 +93,7 @@ Hey There My Name Is Kiara Robot I Am Here To Help You Manage Your Groups!
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add {BOT_NAME} To Your Group",
+                            text=f"Add Me To Your Group",
                             url=f"t.me/{BOT_USERNAME}?startgroup=true")
                     ],
                    [
