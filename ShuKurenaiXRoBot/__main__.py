@@ -94,7 +94,7 @@ buttons = [
     [
                         InlineKeyboardButton(
                             text=f"Add Me To Your Group",
-                            url=f"t.me/{BOT_USERNAME}?startgroup=true")
+                            url=f"t.me/HYPERMEN_RBOT?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
