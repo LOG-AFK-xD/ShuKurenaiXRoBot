@@ -92,30 +92,24 @@ Hey There My Name Is Kiara Robot I Am Here To Help You Manage Your Groups!
 
 buttons = [
     [
-        
-                    InlineKeyboardButton(
-                        "🔎 How to Use? Commands Menu.",
-                        callback_data="help_back",
-                    )
-                ], 
-                [            
-                    InlineKeyboardButton("📨 Support", url=f"https://t.me/UNIQUE_SOCIETY"),
-                    InlineKeyboardButton("📨 Channel", url=f"https://t.me/iTzz_Official"),               
-                ],
-                [
-                    InlineKeyboardButton(
-                        "✚ Add me to your Group ✚", url=f"https://t.me/Kiara_ro_bot?startgroup=true"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👤 Bot Owner", url=f"https://t.me/OFFICIAL_AFK_xD"
-                    ),
-                    InlineKeyboardButton(
-                        "👮🏼 About Me", callback_data="shukurenai_"),                 
-                    
-                
-    ],
-]
+                        InlineKeyboardButton(
+                            text=f"Add {BOT_NAME} To Your Group",
+                            url=f"t.me/{BOT_USERNAME}?startgroup=true")
+                    ],
+                   [
+                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/UNIQUE_SOCIETY"),
+                       InlineKeyboardButton(text="[► About ◄]", callback_data="shukurenai_"),
+                     ],
+                    [                  
+                       InlineKeyboardButton(
+                             text="🚑 Support",
+                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(
+                             text="📢 Updates",
+                             url="https://t.me/TheMafiaNetwork")
+                     ], 
+    ]
 
 
 HELP_STRINGS = """
