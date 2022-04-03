@@ -97,9 +97,9 @@ buttons = [
                             url=f"t.me/HYPERMEN_RBOT?startgroup=true")
                     ],
                    [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+                       InlineKeyboardButton(text="[►Help◄]", callback_data="help_back"),
                        InlineKeyboardButton(text="❔ChitChat", url="https://t.me/UNIQUE_SOCIETY"),
-                       InlineKeyboardButton(text="[► About ◄]", callback_data="shukurenai_"),
+                       InlineKeyboardButton(text="[►About◄]", callback_data="shukurenai_"),
                      ],
                     [                  
                        InlineKeyboardButton(
